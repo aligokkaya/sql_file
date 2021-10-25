@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Oct 26, 2021 at 12:29 AM
+-- Generation Time: Oct 26, 2021 at 12:44 AM
 -- Server version: 8.0.27
 -- PHP Version: 7.3.28
 
@@ -31,7 +31,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `test` (
   `id` int NOT NULL,
   `users` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb3;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb3 COLLATE=utf8_turkish_ci;
 
 --
 -- Dumping data for table `test`
